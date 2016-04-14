@@ -35,8 +35,6 @@ var aqiData = [
   aqiData.sort(function(a,b){
     return b[1]-a[1];
   });
-document.write(aqiData);
-
   var ul=document.getElementById("aqi-list");
   for(var i=0;i<aqiData.length;i++){
     var current_city=aqiData[i][0];
